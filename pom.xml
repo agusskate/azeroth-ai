@@ -41,6 +41,16 @@
             <version>2.20.0</version>
         </dependency>
 
+
+        <!-- JUnit para tests automatizados -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.13.4</version>
+            <scope>test</scope>
+        </dependency>
+
+
         <!-- Amazon Bedrock Runtime -->
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
